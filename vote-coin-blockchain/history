@@ -1,0 +1,7 @@
+personal.newAccount("princeton hacks is the best")
+eth.accounts
+primary = eth.accounts[0]
+eth.coinbase
+miner.start()
+miner.stop()
+eth.getBalance(eth.coinbase)

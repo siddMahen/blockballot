@@ -1,0 +1,37 @@
+=============== Apr 3, 2016 (EDT) ===============
+00:53:31.019705 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:53:31.019948 db@open opening
+00:53:31.020025 journal@recovery F·1
+00:53:31.021431 journal@recovery recovering @1
+00:53:31.025879 mem@flush created L0@2 N·1130 S·37KiB "n:\x00..ver,v1036":"version,v1"
+00:53:31.027603 db@janitor F·3 G·0
+00:53:31.027627 db@open done T·7.666916ms
+02:20:25.081735 mem@flush N·67369 S·6MiB
+02:20:25.146080 mem@flush created L0@6 N·67369 S·1MiB "n:\x00..ing,v47919":"n:\xff..ing,v44143"
+02:20:25.146714 mem@flush committed F·1 T·64.174612ms
+02:20:25.147276 journal@remove removed @3
+02:20:26.604559 table@compaction L0·2 -> L1·0 S·1MiB Q·68573
+02:20:26.644181 table@build created L1@7 N·16020 S·942KiB "n:\x00..ing,v47919":"version,v1"
+02:20:26.644414 table@compaction committed F-1 S-473KiB Ke·0 D·52479 T·39.54767ms
+02:20:26.644994 table@remove removed @6
+02:20:26.646193 table@remove removed @2
+04:36:01.066664 mem@flush N·133079 S·12MiB
+04:36:01.199428 mem@flush created L0@9 N·133079 S·2MiB "n:\x00..ing,v141962":"n:\xff..ing,v72189"
+04:36:01.199907 mem@flush committed F·1 T·133.012865ms
+04:36:01.200154 journal@remove removed @5
+04:36:04.492539 table@compaction L0·1 -> L1·1 S·3MiB Q·201678
+04:36:04.589246 table@build created L1@10 N·26364 S·1MiB "n:\x00..ing,v141962":"version,v1"
+04:36:04.589459 table@compaction committed F-1 S-1MiB Ke·0 D·122735 T·96.874028ms
+04:36:04.589814 table@remove removed @9
+04:36:04.590182 table@remove removed @7
+05:14:44.896286 mem@flush N·54673 S·4MiB
+05:14:44.961530 mem@flush created L0@12 N·54673 S·1MiB "n:\x00..ing,v245901":"n:\xff..ing,v248857"
+05:14:44.961843 mem@flush committed F·1 T·65.269945ms
+05:14:44.962078 journal@remove removed @8
+05:14:52.757847 table@compaction L0·1 -> L1·1 S·2MiB Q·256336
+05:14:52.824778 table@build created L1@13 N·29112 S·1MiB "n:\x00..ing,v141962":"version,v1"
+05:14:52.825202 table@compaction committed F-1 S-986KiB Ke·0 D·51925 T·67.292828ms
+05:14:52.825500 table@remove removed @12
+05:14:52.825833 table@remove removed @10
+08:57:05.530319 db@close closing
+08:57:05.531667 db@close done T·1.503081ms
